@@ -7,6 +7,7 @@ spring:
       server:
         git:
           uri: https://github.com/mohamedwaleed/spring-cloud-poc.git
+          searchPaths: configData
         native:
           searchLocations: classpath:configData
       label: master        
