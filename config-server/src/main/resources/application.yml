@@ -8,9 +8,7 @@ spring:
         git:
           uri: https://github.com/mohamedwaleed/spring-cloud-poc.git
           searchPaths: configData
-        native:
-          searchLocations: classpath:configData
-      label: master        
+      label: master
 
 server:
   port: 8001
